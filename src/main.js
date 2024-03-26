@@ -19,14 +19,26 @@ function printStart() {
     const startContainer = document.createElement('div');
     startContainer.setAttribute('id', 'startContainer');
     main.appendChild(startContainer);
+
     const startTitle = document.createElement('h2');
     startTitle.innerText = 'Vad är pumpa?';
     startContainer.appendChild(startTitle);
+
+    const textDivStart = document.createElement('div');
+    textDivStart.setAttribute('id', 'textDivStart');
+    startContainer.appendChild(textDivStart);
+    console.log(textDivStart);
+    textDivStart.innerHTML = `<p>Pumpasläktet tillhör familjen gurkväxter. De vanligaste arterna som används i matlagning är Curcubita pepo, Curcubita maxima och Curcubita moschata</p><h3>Kärt barn har många namn.</h3><p>Squash. Butternut. Zucchini. Vintersquash. Jättepumpa. Halloweenpumpa. Vad är vad, egentligen? Det beror lite på vem du frågar? Det råder en viss begreppsförvirring. Allt är dock pumpa. Här reder vi ut det hela!</p><p>En zucchini och en halloweenpunpa tillhör faktiskt samma art, Curcubita pepo. Förutom form och storlek så den kanske viktigaste skillnaden att halloweenpumpan har ett tjockare skal och därför lämpar sig bättre för lagring, därför kallas den ofta även för vintersquash. På våra breddgrader mognar den inomhus under senhöst/vinter. Sommarsquashen/zucchinin skördas istället omogen under sommaren. Därför kan man lika gärna använda sig av begreppen sommarpumpa och vinterpumpa. Det är alltså samma sak som sommarsquash och vintersquash.</p>`;
+
 
     /* const startImg = document.createElement('img');
     startImg.setAttribute('src', 'src/images/20231001_153319.jpg');
     startContainer.appendChild(startImg); */
 }
+
+printStart();
+
+
 function printPepo() {
     console.log('pepo');
 }

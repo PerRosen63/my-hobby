@@ -35,9 +35,16 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
     h2 {
       background: yellow;
       padding: 15px;
+    }
+    #textDivStart {
+      max-width: 600px;
+      background: yellow;
+      padding: 15px;
+      text-align: center;
     }
   }
 }
