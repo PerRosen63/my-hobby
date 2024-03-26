@@ -8,11 +8,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  background-color: yellow;
-}
-
 header {
+  background-color: yellow;
   box-shadow: 2px 2px 2px grey;
   padding: 20px;
   display: flex;
@@ -25,5 +22,14 @@ header {
     li {
       margin: 0 10px;
     }
+  }
+}
+
+main {
+  background-color: yellow;
+  #startContainer {
+    height: 100vh;
+    background: url("src/images/pumpkins.jpg") no-repeat center center;
+    background-size: cover;
   }
 }

@@ -1,17 +1,29 @@
 import './scss/style.scss';
 
-const start = document.getElementById('start');
-const pepo = document.getElementById('pepo');
-const maxima = document.getElementById('maxima');
-const moschata = document.getElementById('moschata');
+const main = document.getElementById('main');
 
-start.addEventListener('click', printStart);
-pepo.addEventListener('click', printPepo);
-maxima.addEventListener('click', printMaxima);
-moschata.addEventListener('click', printMoschata);
+const btns = document.querySelectorAll('nav ul li');
+
+const startBtn = document.getElementById('startBtn');
+const pepoBtn = document.getElementById('pepoBtn');
+const maximaBtn = document.getElementById('maximaBtn');
+const moschataBtn = document.getElementById('moschataBtn');
+
+startBtn.addEventListener('click', printStart);
+pepoBtn.addEventListener('click', printPepo);
+maximaBtn.addEventListener('click', printMaxima);
+moschataBtn.addEventListener('click', printMoschata);
 
 function printStart() {
-    console.log('start');
+    main.innerHTML = '';
+    const startContainer = document.createElement('div');
+    startContainer.setAttribute('id', 'startContainer');
+    main.appendChild(startContainer);
+    const startTitle = document.createElement('h2')
+
+    /* const startImg = document.createElement('img');
+    startImg.setAttribute('src', 'src/images/20231001_153319.jpg');
+    startContainer.appendChild(startImg); */
 }
 function printPepo() {
     console.log('pepo');
