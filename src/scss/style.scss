@@ -28,8 +28,16 @@ header {
 main {
   background-color: yellow;
   #startContainer {
-    height: 100vh;
+    height: calc(100vh - 144px);
     background: url("src/images/pumpkins.jpg") no-repeat center center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      background: yellow;
+      padding: 15px;
+    }
   }
 }

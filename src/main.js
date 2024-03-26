@@ -19,7 +19,9 @@ function printStart() {
     const startContainer = document.createElement('div');
     startContainer.setAttribute('id', 'startContainer');
     main.appendChild(startContainer);
-    const startTitle = document.createElement('h2')
+    const startTitle = document.createElement('h2');
+    startTitle.innerText = 'Vad är pumpa?';
+    startContainer.appendChild(startTitle);
 
     /* const startImg = document.createElement('img');
     startImg.setAttribute('src', 'src/images/20231001_153319.jpg');
