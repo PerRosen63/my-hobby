@@ -43,8 +43,12 @@ main {
     #textDivStart {
       max-width: 600px;
       background: yellow;
-      padding: 15px;
+      padding: 20px;
       text-align: center;
+
+      p {
+        margin: 10px 0;
+      }
     }
   }
 }
