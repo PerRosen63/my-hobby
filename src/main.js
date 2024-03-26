@@ -14,6 +14,15 @@ pepoBtn.addEventListener('click', printPepo);
 maximaBtn.addEventListener('click', printMaxima);
 moschataBtn.addEventListener('click', printMoschata);
 
+document.querySelectorAll('nav ul li').forEach(li => {
+    console.log(li);
+
+    li.addEventListener('click', () => {
+        document.querySelector('.active').classList.remove('active');
+        li.classList.add('active');
+    });
+});
+
 function printStart() {
     main.innerHTML = '';
     const startContainer = document.createElement('div');
