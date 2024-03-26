@@ -31,7 +31,7 @@ header {
 main {
   background-color: yellow;
   #startContainer {
-    height: calc(100vh - 144px);
+    height: calc(100vh - 147px);
     background: url("src/images/pumpor_blur.jpg") no-repeat center center;
     background-size: cover;
     display: flex;
@@ -42,6 +42,14 @@ main {
     h2 {
       background: yellow;
       padding: 15px;
+    }
+    #imgContainer {
+      display: flex;
+      flex-direction: row;
+      img {
+        background-color: white;
+        padding: 20px 30px;
+      }
     }
     #textDivStart {
       max-width: 600px;
