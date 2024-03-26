@@ -23,20 +23,33 @@ document.querySelectorAll('nav ul li').forEach(li => {
     });
 });
 
-function printStart() {
-    main.innerHTML = '';
-    const startContainer = document.createElement('div');
-    startContainer.setAttribute('id', 'startContainer');
-    main.appendChild(startContainer);
+main.innerHTML = '';
+const startContainer = document.createElement('div');
+startContainer.setAttribute('id', 'startContainer');
+main.appendChild(startContainer);
 
-    const startTitle = document.createElement('h2');
-    startTitle.innerText = 'Vad är pumpa?';
-    startContainer.appendChild(startTitle);
+const imgContainer = document.createElement('div');
+imgContainer.setAttribute('id', 'imgContainer')
+startContainer.appendChild(imgContainer);
 
-    const textDivStart = document.createElement('div');
+
+const startTitle = document.createElement('h2');
+startContainer.appendChild(startTitle);
+
+const textDivStart = document.createElement('div');
     textDivStart.setAttribute('id', 'textDivStart');
     startContainer.appendChild(textDivStart);
     console.log(textDivStart);
+
+function printStart() {
+
+    startTitle.innerText = 'Vad är pumpa?';
+    imgContainer.innerHTML = '';
+
+    /* const textDivStart = document.createElement('div');
+    textDivStart.setAttribute('id', 'textDivStart');
+    startContainer.appendChild(textDivStart);
+    console.log(textDivStart); */
     textDivStart.innerHTML = `<p>Pumpasläktet tillhör familjen gurkväxter. De vanligaste arterna som används i matlagning är Curcubita pepo, Curcubita maxima och Curcubita moschata</p><h3>Kärt barn har många namn.</h3><p>Squash. Butternut. Zucchini. Vintersquash. Jättepumpa. Halloweenpumpa. Vad är vad, egentligen? Det beror lite på vem du frågar? Det råder en viss begreppsförvirring. Allt är dock pumpa. Här reder vi ut det hela!</p><p>En zucchini och en halloweenpumpa tillhör faktiskt samma art, Curcubita pepo. Förutom form och storlek så är den kanske viktigaste skillnaden att halloweenpumpan har ett tjockare skal och därför lämpar sig bättre för lagring, därför kallas den ofta även för vintersquash. På våra breddgrader låter vi den mogna inomhus under senhöst/vinter. Sommarsquashen/zucchinin skördas istället omogen under sommaren. Därför kan man lika gärna använda sig av begreppen sommarpumpa och vinterpumpa. Det är alltså samma sak som sommarsquash och vintersquash.</p>`;
 
 }
@@ -45,12 +58,18 @@ printStart();
 
 
 function printPepo() {
-    console.log('pepo');
+    startTitle.innerText = 'Curcubita pepo';
+    imgContainer.innerHTML = `<img width="150" height="150" src="src/images/Rondini 2.jpg"><img width="150" height="150" src="src/images/Zucchini 500x500zugeschnitten.jpg"><img width="150" height="150" src="src/images/lilpumkemon.jpg">`
+    textDivStart.innerHTML = `<p>Vestibulum fringilla pede sit amet augue. Etiam ut purus mattis mauris sodales aliquam. Duis leo. Nunc nec neque. Nam pretium turpis et arcu.</p>`;
 }
 function printMaxima() {
-    console.log('maxima');
+    startTitle.innerText = 'Curcubita maxima';
+    imgContainer.innerHTML = `<img width="150" height="150" src="src/images/Rondini 2.jpg"><img width="150" height="150" src="src/images/Zucchini 500x500zugeschnitten.jpg"><img width="150" height="150" src="src/images/lilpumkemon.jpg">`
+    textDivStart.innerHTML = `<p>Vestibulum fringilla pede sit amet augue. Etiam ut purus mattis mauris sodales aliquam. Duis leo. Nunc nec neque. Nam pretium turpis et arcu.</p>`;
 }
 function printMoschata() {
-    console.log('moschata');
+    startTitle.innerText = 'Curcubita maxima';
+    imgContainer.innerHTML = `<img width="150" height="150" src="src/images/Rondini 2.jpg"><img width="150" height="150" src="src/images/Zucchini 500x500zugeschnitten.jpg"><img width="150" height="150" src="src/images/lilpumkemon.jpg">`
+    textDivStart.innerHTML = `<p>Vestibulum fringilla pede sit amet augue. Etiam ut purus mattis mauris sodales aliquam. Duis leo. Nunc nec neque. Nam pretium turpis et arcu.</p>`;
 }
 
