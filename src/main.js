@@ -65,7 +65,7 @@ function printPepo() {
 function printMaxima() {
     startTitle.innerText = 'Curcubita maxima';
     imgContainer.innerHTML = `<img width="150" height="150" src="src/images/112620.jpg"><img width="150" height="150" src="src/images/Solor.jpg"><img width="150" height="150" src="src/images/091780.jpg">`
-    textDivStart.innerHTML = `<p>Vestibulum fringilla pede sit amet augue. Etiam ut purus mattis mauris sodales aliquam. Duis leo. Nunc nec neque. Nam pretium turpis et arcu.</p>`;
+    textDivStart.innerHTML = `<p>Bland arten C maxima kanske man med tanke på det latinska namnet i första hand förväntar sig jättepumpor. Det stämmer inte riktigt. Här finns pumpor i alla storlekar, från småttingar på ett halvkilo till bjässar på ett halvt ton. De sistnämnda duger i bästa fall till soppa, om man mäktar ta hand om allt vill säga.</p><p>Uchiki Kuri är en populär och lättodlad s k Hokkaidopumpa. Den har ett mörkorange fruktkött, vilket även stämmer in på de vackra Kabocha-sorterna. Banana Pink är en stor avlång och omtyckt matpumpa som inte sällan kan väga 15 kg. Vi hittar även den lustigt formade minipumpan Aladdins Turban bland C maxima.</p>`;
 }
 function printMoschata() {
     startTitle.innerText = 'Curcubita moschata';
