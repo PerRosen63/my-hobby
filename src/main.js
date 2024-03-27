@@ -64,12 +64,12 @@ function printPepo() {
 }
 function printMaxima() {
     startTitle.innerText = 'Curcubita maxima';
-    imgContainer.innerHTML = `<img width="150" height="150" src="src/images/Rondini 2.jpg"><img width="150" height="150" src="src/images/Zucchini 500x500zugeschnitten.jpg"><img width="150" height="150" src="src/images/lilpumkemon.jpg">`
+    imgContainer.innerHTML = `<img width="150" height="150" src="src/images/112620.jpg"><img width="150" height="150" src="src/images/Solor.jpg"><img width="150" height="150" src="src/images/091780.jpg">`
     textDivStart.innerHTML = `<p>Vestibulum fringilla pede sit amet augue. Etiam ut purus mattis mauris sodales aliquam. Duis leo. Nunc nec neque. Nam pretium turpis et arcu.</p>`;
 }
 function printMoschata() {
-    startTitle.innerText = 'Curcubita maxima';
-    imgContainer.innerHTML = `<img width="150" height="150" src="src/images/Rondini 2.jpg"><img width="150" height="150" src="src/images/Zucchini 500x500zugeschnitten.jpg"><img width="150" height="150" src="src/images/lilpumkemon.jpg">`
+    startTitle.innerText = 'Curcubita moschata';
+    imgContainer.innerHTML = `<img width="150" height="150" src="src/images/133340.jpg"><img width="150" height="150" src="src/images/Mieluna 500x500 2.jpg"><img width="150" height="150" src="src/images/Tromba d Albegna.jpg">`
     textDivStart.innerHTML = `<p>Vestibulum fringilla pede sit amet augue. Etiam ut purus mattis mauris sodales aliquam. Duis leo. Nunc nec neque. Nam pretium turpis et arcu.</p>`;
 }
 
