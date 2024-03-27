@@ -31,7 +31,7 @@ header {
 main {
   background-color: yellow;
   #startContainer {
-    height: calc(100vh - 144px);
+    min-height: calc(100vh - 147px);
     background: url("src/images/pumpor_blur.jpg") no-repeat center center;
     background-size: cover;
     display: flex;
