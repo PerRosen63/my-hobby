@@ -1,4 +1,4 @@
-import './scss/style.scss';
+import './scss/style.css';
 
 const main = document.getElementById('main');
 
